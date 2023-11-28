@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Indoor Air Quality Solutions",
+        "content": "Breathe easy with our comprehensive indoor air quality services. We understand the importance of clean and healthy air for your family's well-being. Our experts offer a range of solutions, including air purifiers, humidifiers, and ventilation systems, to improve the air quality in your home. Whether you're concerned about allergens, pollutants, or excess humidity, we have the expertise to tailor solutions that promote a healthier and more comfortable living environment.",
+        "image_url": "../../../assets/images/airpurifier-377x276.jpg"
+    },
+    {
+        "title": "Air Conditioning Installation and Maintenance",
+        "content": "Escape the heat and enjoy a refreshing indoor oasis with our expert air conditioning services. We offer top-tier air conditioning installation, ensuring your space remains cool and comfortable even on the hottest days. Our maintenance plans are designed to keep your AC unit running efficiently, extending its lifespan and preventing unexpected breakdowns. Trust our team to provide solutions that enhance your quality of life by creating a cool and inviting environment.",
+        "image_url": "../../../assets/images/acunit2.jpg"
+    },
+    {
+        "title": "Heating System Installation and Repair",
+        "content": "Stay warm and cozy throughout the colder months with our professional heating system services. Our experienced technicians specialize in the installation, repair, and maintenance of a wide range of heating systems, from furnaces and heat pumps to radiant heating systems. Whether you're in need of a new heating system installation or quick and effective repairs to your existing setup, we're here to ensure your indoor comfort no matter how chilly it gets outside.",
+        "image_url": "../../../assets/images/funance1-413x200.jpg"
+    }
+]

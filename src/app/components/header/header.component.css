@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.brand-logo{
+    max-width: 300px;
+    max-height: 150px;
+}

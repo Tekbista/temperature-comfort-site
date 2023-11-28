@@ -1,0 +1,36 @@
+<div [ngClass]="'footer'">
+    <div [ngClass]="'container mx-auto mt-4 mb-2'">
+        <div [ngClass]="'row'">
+            <div [ngClass]="'col-sm-4 mb-5'">
+                <h3>Services</h3>
+               <ul [ngClass]="'navbar-nav'">
+                <li [ngClass]="'nav-item'"><a [ngClass]="'nav-link'" href="#Indoor Air Quality Solutions">Indoor Air Quality Solutions</a></li>
+                <li [ngClass]="'nav-item'"><a [ngClass]="'nav-link'" href="#Air Conditioning Installation and Maintenance">Air Conditioning Installation and Maintenance</a></li>
+                <li [ngClass]="'nav-item'"><a [ngClass]="'nav-link'" href="#Heating System Installation and Repair">Heating System Installation and Repair</a></li>
+                
+               </ul>
+            </div> 
+            
+            <div [ngClass]="'col-sm-4 mb-5'">
+                <div [ngClass]="'d-flex justify-content-start'"><h3>Follow Us On</h3></div>
+                <div [ngClass]="'d-flex justify-content-start'">
+                    <i [ngClass]="'bi bi-facebook social'" (click)="followUs('facebook')"></i>
+                    <i [ngClass]="'bi bi-twitter social'" (click)="followUs('twitter')"></i>
+                    <i [ngClass]="'bi bi-instagram social'" (click)="followUs('insta')"></i>
+                </div>
+            </div>
+            
+            <div [ngClass]="'col-sm-4 mb-5'">
+                <h3>Temperature Comfort</h3>
+                <p><i [ngClass]="'bi bi-telephone-forward-fill'"></i> (520)-656-5169</p>
+                <p><i [ngClass]="'bi bi-envelope-arrow-down-fill'"></i> temperature.comfort@gmail.com</p>
+            </div>
+        </div>
+       
+        <div [ngClass]="'d-flex justify-content-center mt-4'">
+            <p>&copy; {{curYear}} Temperature Comfort | All rights reserved.</p>
+           
+        </div>
+    </div>
+</div>
+

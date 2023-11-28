@@ -1,0 +1,43 @@
+.banner{
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #031a54;
+}
+
+p{
+    font-size: medium;
+    color: #070707;
+}
+
+.banner-image{
+    display: block;
+    text-align: center;
+}
+
+.banner-image > img{
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.contact-us{
+    background-color: blueviolet;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-us:hover{
+    background-color: #1b47b7;
+}

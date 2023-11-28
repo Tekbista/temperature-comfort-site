@@ -1,0 +1,27 @@
+<div [ngClass]="'services'" id="services">
+    <div [ngClass]="'container mx-auto pt-5 pb-5'">
+        <h1 [ngClass]="'banner-greeting'">OUR SERVICES</h1>
+        <div class="container mx-auto mt-2 mb-2" *ngFor="let ser of tcServices; let i=index">
+            <div [ngClass]="'row'" id="{{ser.title}}" *ngIf="(i + 1)%2 !==0">
+                <div [ngClass]="'col-sm-6'">
+                    <h2 [ngClass]="'banner-greeting'">{{ser.title}}</h2>
+                    <p>{{ser.content}}</p>   
+                </div>
+    
+                <div [ngClass]="'service-image col-sm-6'">
+                    <img [ngClass]="'banner-image rounded'" src="{{ser.image_url}}" alt="air purifiers">
+                </div>
+            </div>
+
+            <div [ngClass]="'row'" id="{{ser.title}}" *ngIf="(i + 1)%2===0">
+                <div [ngClass]="'service-image col-sm-6'">
+                    <img [ngClass]="'banner-image rounded'" src="{{ser.image_url}}" alt="air purifiers">
+                </div>
+                <div [ngClass]="'col-sm-6'">
+                    <h2 [ngClass]="'banner-greeting'">{{ser.title}}</h2>
+                    <p>{{ser.content}}</p>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

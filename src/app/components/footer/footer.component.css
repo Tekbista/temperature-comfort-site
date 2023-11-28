@@ -1,0 +1,62 @@
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 26, 91);
+    color: #fff;
+    padding: 20px;
+}
+
+p, li{
+    font-size: 16px;
+    color: inherit;
+    animation: zoom 1s;
+}
+
+@media only screen and (max-width: 900px){
+    p, li{
+        font-size: 14px;
+    }
+  }
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+@media only screen and (max-width: 900px){
+    h3{
+        font-size: 20px;
+    }
+  }
+
+i.social{
+    font-size: 36px;
+    margin-right: 20px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.social:hover{
+    color: blueviolet;
+    background-color: #fff;
+}
+
+.col-sm-4{
+    text-align: start;
+}
+
+.bi-youtube{
+    color: rgb(255, 0, 0);
+}
+
+i{
+    margin-right: 5px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
